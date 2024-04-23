@@ -2509,7 +2509,7 @@ It corresponds to one .c file, and optionally one .h file.
 During the processing, a "current unit" is kept in a parameter
 @code{cgen-current-unit}, and most cgen APIs implicitly work to it.
 @c JP
-@emph{cgen-uint}はCソースコード生成の単位です。
+@emph{cgen-unit}はCソースコード生成の単位です。
 ひとつのインスタンスがひとつの@code{.c}ファイルと、
 必要に応じてひとつの@code{.h}ファイルに対応します。
 処理中には「現在のunit」がパラメータ@code{cgen-current-unit}に束縛されていて、
